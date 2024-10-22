@@ -1,0 +1,10 @@
+fp=open('text.txt','w')
+print('人生苦短，我用python',file=fp)
+fp.close();
+name=input('请输入你的姓名')
+age=input('请输入你的年龄')
+motto=input('请输入你的座右铭')
+print('-----自我介绍-----')
+print('姓名:'+name)
+print('年龄:'+age)
+print('座右铭:'+motto)

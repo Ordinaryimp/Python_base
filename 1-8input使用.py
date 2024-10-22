@@ -1,0 +1,6 @@
+name=input('请输入你的姓名')
+print('你的姓名是:'+name)
+print('你的姓名是:',name)
+num=input('请输入你的密码')
+#num=int(input('请输入你的密码'))
+print('你的密码是：',int(num))
