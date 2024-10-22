@@ -1,0 +1,15 @@
+x=6
+y=9
+print(y//x)
+print(x**2)
+print(2**x)
+#prthon支持链式赋值
+a=b=c=100
+print(a,b,c)
+#prthon支持系列解包赋值
+a,b=10,20
+print(a,b)
+print('如何交换两个变量的值呢')
+a,b=b,a
+print(a,b)
+print(type(a>b))
